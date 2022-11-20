@@ -1,0 +1,474 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .container {
+        max-width: 1220px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    @font-face {
+        font-family: 'Rubik-Regular';
+        src: url(../Fonts/Rubik-Regular.ttf);
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Rubik-Madium';
+        src: url(../Fonts/Rubik-Medium.ttf);
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Rubik-Bold';
+        src: url(../Fonts/Rubik-Bold.ttf);
+        font-weight: 700;
+        font-style: normal;
+    }
+    
+    .header {
+        width: 100%;
+        height: 332px;
+        background-color: #F6F6F9;
+    }
+    
+    .header-top {
+        display: flex;
+        justify-content: space-between;
+        padding: 45px 0;
+    }
+    
+    .header-img {
+        background-color: white;
+        padding: 3px 6px 4px 8px;
+    }
+    
+    .header-img2 {
+        margin-left: 17px;
+    }
+    
+    .header-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header-right1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .qidiruv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 145px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: white;
+        margin-right: 13px
+    }
+    
+    .qidiruv h5 {
+        width: 100px;
+        height: 13px;
+        font-family: 'Rubik-Regular';
+        font-size: 12px;
+        line-height: 14px;
+        /* identical to box height */
+        color: #CCCCCC;
+    }
+    
+    .header-right-lupa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 38px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: white;
+    }
+    
+    .header-right-img {
+        width: 17px;
+        height: 17px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    
+    .header-right-ru {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        width: 64px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: white;
+        margin-left: 21px;
+        margin-right: 23px;
+    }
+    
+    .header-btn {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        width: 146px;
+        height: 40px;
+        border: 1px solid white;
+        border-radius: 5px;
+        background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+        font-family: 'Rubik-Madium';
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+    
+    .header-btn-img {
+        margin-right: 8px;
+    }
+    
+    nav {
+        padding: 21px 24px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+        border-radius: 5px;
+        margin: 1px 0 18px;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style: none;
+        font-family: 'Rubik-Madium';
+        font-size: 19px;
+        line-height: 23px;
+        color: #515151;
+        justify-content: space-between;
+    }
+    
+    nav ul li {
+        cursor: pointer;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #515151;
+    }
+    
+    nav ul a:hover {
+        color: #1e6ac8;
+    }
+    
+    nav ul li:hover {
+        color: #1e6ac8;
+    }
+    
+    .color {
+        color: #1e6ac8;
+    }
+    
+    .header-bottom {
+        margin-top: 18px;
+    }
+    /* main qism boshlandi*/
+    
+    .formalar {
+        display: flex;
+    }
+    
+    .formalar-left h3 {
+        width: 178px;
+        height: 30px;
+        margin-top: 17px;
+        font-family: 'Rubik-Madium';
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+    }
+    
+    .form-input {
+        width: 600px;
+        height: 50px;
+        margin-top: 20px;
+        padding: 16px;
+        border: 2px solid #285193;
+        background-color: #F1F1F1;
+        /* color: white;     */
+        background: #F1F1F1;
+        opacity: 0.3;
+        border: 2px solid #285193;
+        border-radius: 5px;
+    }
+    
+    .form-input:hover {
+        border: 1px solid red;
+    }
+    
+    .formalar-left placeholder {
+        width: 145px;
+        height: 21px;
+        font-family: 'Rubik-Regular';
+        font-size: 18px;
+        line-height: 21px;
+        color: #888888;
+    }
+    
+    .formalar-left textarea {
+        width: 600px;
+        height: 307px;
+    }
+    
+    .file {
+        width: 221px;
+        height: 50px;
+    }
+    
+    .kod {
+        width: 221px;
+        height: 50px;
+    }
+    
+    .formalar-left p {
+        display: inline-block;
+        margin-left: 18px;
+        width: 88px;
+        height: 29px;
+    }
+    
+    .formalar-left button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 221px;
+        height: 50px;
+        margin-top: 20px;
+        background-color: #295093;
+        border: 0;
+        font-family: 'Rubik-Bold';
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+    
+    .formalar-right {
+        margin-top: 60px;
+        margin-left: 90px;
+        width: 510px;
+        height: 280px;
+        box-shadow: 0px 8px 9px 0px #BCC3CD;
+        border: 2px solid #BCC3CD;
+        background: #FFFFFF;
+        border: 2px solid #BCC3CD;
+        border-radius: 5px;
+    }
+    
+    .formalar-right2 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .formalar-right h2 {
+        display: flex;
+        justify-content: flex-end;
+        margin: 23px 8px 21px 160px;
+        width: 329px;
+        height: 33px;
+        font-family: 'Rubik-Bold';
+        font-size: 28px;
+        line-height: 33px;
+        color: #295091;
+    }
+    
+    .forma-right-right a {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 20px;
+        font-family: 'Rubik-Regular';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #888888;
+    }
+    
+    .forma-right-right a:hover {
+        text-decoration: 1px solid blue;
+    }
+    
+    .forma-right-img {
+        margin-left: 100px;
+    }
+    
+    .forma-right-img:nth-child(2) {
+        margin: 0 16px;
+    }
+    
+    .forma-right-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+    
+    .forma-right-left ul li {
+        margin-top: 30px;
+        font-family: 'Rubik-Regular';
+        font-size: 18px;
+        line-height: 21px;
+        color: #888888;
+    }
+    
+    .forma-right-left ul li:nth-child(1) {
+        margin-top: 0px;
+    }
+    
+    .forma-right-btn {
+        display: flex;
+        margin-left: 60px;
+        align-items: center;
+        padding: 10px;
+        width: 146px;
+        height: 40px;
+        border: 1px solid white;
+        border-radius: 5px;
+        background: #295091;
+        font-family: 'Rubik-Madium';
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+    
+    .forma-btn-img {
+        margin-right: 8px;
+    }
+    /* footer qism boshlandi  */
+    
+    footer {
+        width: 100%;
+        background-color: #295093;
+        color: white;
+        padding: 20px 0 15px;
+        margin-top: 38PX;
+    }
+    
+    .footer-bir {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer-right {
+        display: flex;
+        gap: 17px;
+        align-items: center;
+    }
+    
+    .footer-left {
+        width: 194px;
+        height: 38px;
+    }
+    
+    .footer-right button {
+        padding: 10px 11px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        border: 0;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        margin-top: 16px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #295093;
+    }
+    
+    .footer-bir p {
+        width: 659px;
+        height: 19px;
+        margin-top: 6px;
+        font-family: 'Rubik-Madium';
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    .footer-right p {
+        width: 700px;
+        height: 19px;
+        margin-top: 6px;
+        font-family: 'Rubik-Madium';
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    .footer-bir-picture {
+        width: 200px;
+        height: 21px;
+        background-color: #133C82;
+        margin-top: 150px;
+        /* margin-bottom: 20px; */
+        margin: 11px 12px 6px 9px;
+    }
+    
+    .footer-end-left {
+        width: 194px;
+        height: 38px;
+        margin-bottom: 20px;
+    }
+    
+    .footer-hr {
+        width: 1200px;
+        height: 3px;
+        margin: 18px 0 12px;
+        background-color: #133C82;
+        margin-top: 16px;
+        border: 0;
+    }
+    
+    .footer-end-left h5,
+    p {
+        width: 365px;
+        /* height: 121px; */
+        font-family: 'Rubik-Madium';
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    .fooner-end {
+        display: inline-flex;
+        gap: 125px;
+    }
+    
+    .footer-end-right {
+        display: inline-flex;
+        gap: 125px;
+    }
+    
+    .footer-end-left {
+        width: 365px;
+    }
+    
+    .footer-end-right ul {
+        list-style: none;
+    }
+    
+    .footer-end-right li {
+        font-family: 'Rubik-Madium';
+        font-size: 14px;
+        line-height: 27px;
+    }

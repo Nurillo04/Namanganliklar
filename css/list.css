@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: url(../Fonts/Rubik-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik-Madium';
+    src: url(../Fonts/Rubik-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik-Bold';
+    src: url(../Fonts/Rubik-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.header {
+    width: 100%;
+    height: 332px;
+    background-color: #F6F6F9;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0;
+}
+
+.header-img {
+    background-color: white;
+    padding: 3px 6px 4px 8px;
+}
+
+.header-img2 {
+    margin-left: 17px;
+}
+
+.header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right-lupa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.header-right-img {
+    width: 17px;
+    height: 17px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.header-right-ru {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 64px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 21px;
+    margin-right: 23px;
+}
+
+.header-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 146px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    font-family: 'Rubik-Madium';
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.header-btn-img {
+    margin-right: 8px;
+}
+
+nav {
+    padding: 21px 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+    margin: 1px 0 18px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    font-family: 'Rubik-Madium';
+    font-size: 19px;
+    line-height: 23px;
+    color: #515151;
+    justify-content: space-between;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #515151;
+}
+
+nav ul a:hover {
+    color: #1e6ac8;
+}
+
+nav ul li:hover {
+    color: #1e6ac8;
+}
+
+.color {
+    color: #1e6ac8;
+}
+
+.header-bottom {
+    margin-top: 18px;
+}
+
+
+/* main qism boshlandi */
+
+.covid {
+    margin-top: 20px;
+}
+
+.section-covid {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 33px 0px 40px 0px;
+    background-color: #F6F6F9;
+}
+
+.section-covid1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-right: 2px solid #F4CCD1;
+    padding: 42px 71px 41px 35px;
+}
+
+.section-covid2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-right: 2px solid #F4CCD1;
+    padding: 42px 41px 41px 35px;
+}
+
+.section-covid3 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-right: 2px solid #F4CCD1;
+    padding: 42px 41px 41px 35px;
+}
+
+.section-covid4 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 42px 41px 41px 35px;
+}
+
+.covid-p1 {
+    width: 232px;
+    height: 50px;
+    font-family: 'Rubik-Madium';
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.covid-p2 {
+    width: 161px;
+    height: 50px;
+    font-family: 'Rubik-Regular';
+    font-size: 18px;
+    line-height: 21px;
+    color: #DB0000;
+}
+
+.covid-p3 {
+    width: 161px;
+    height: 50px;
+    font-family: 'Rubik-Regular';
+    font-size: 18px;
+    line-height: 21px;
+    color: #05B135;
+}
+
+.covid-p4 {
+    width: 161px;
+    height: 50px;
+    font-family: 'Rubik-Regular';
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+section-covid p {
+    color: red;
+}
+
+
+/* new qism boshlandi  */
+
+.new {
+    display: flex;
+    margin-top: 38px;
+}
+
+.new-left {
+    width: 830px;
+}
+
+.new-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 19px;
+}
+
+.new-left-title {
+    width: 198px;
+    height: 26px;
+    font-family: 'Rubik-Madium';
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 13px;
+}
+
+.new-left-title2 {
+    width: 434px;
+    height: 52px;
+    font-family: 'Rubik-Madium';
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+    margin-top: 19px;
+}
+
+.new-left-paragraph {
+    width: 512px;
+    height: 55px;
+    font-family: 'Rubik-Regular';
+    font-size: 15px;
+    line-height: 18px;
+    color: #434343;
+    margin: 8px 0px 12px 0px;
+}
+
+.new-item-img {
+    margin-top: 18px;
+}
+
+.new-btn {
+    width: 241px;
+    height: 42px;
+    padding: 10px 32px;
+    margin: 20px 0px 0px 300px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #295093;
+    font-family: 'Rubik-Madium';
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.new-item span {
+    font-family: 'Rubik-Regular';
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+}
+
+.new-right {
+    width: 386px;
+    height: 580px;
+    background-color: #F6F6F9;
+    padding: 16px 0px 0px 20px;
+    margin-top: 26px;
+}
+
+.new-right-title {
+    width: 280px;
+    height: 26px;
+    font-family: 'Rubik-Madium';
+    font-size: 20px;
+    line-height: 24px;
+    color: #202020;
+}
+
+.new-right-paragraph {
+    width: 347px;
+    height: 62px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    font-family: 'Rubik-Regular';
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+}
+
+.new-right span {
+    width: 117px;
+    height: 19px;
+    font-family: 'Rubik-Regular';
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+}
+
+.new-right hr {
+    width: 346px;
+    height: 4px;
+    background-color: #E4E4E4;
+    margin-top: 14px;
+}
+
+.new-right-img {
+    margin-left: -20px;
+}
+
+
+/* footer qism boshlandi  */
+
+footer {
+    width: 100%;
+    background-color: #295093;
+    color: white;
+    padding: 20px 0 15px;
+    margin-top: 38PX;
+}
+
+.footer-bir {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-right {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+
+.footer-left {
+    width: 194px;
+    height: 38px;
+}
+
+.footer-right button {
+    padding: 10px 11px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #295093;
+}
+
+.footer-bir p {
+    width: 659px;
+    height: 19px;
+    margin-top: 6px;
+    font-family: 'Rubik-Madium';
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.footer-right p {
+    width: 700px;
+    height: 19px;
+    margin-top: 6px;
+    font-family: 'Rubik-Madium';
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.footer-bir-picture {
+    width: 200px;
+    height: 21px;
+    background-color: #133C82;
+    margin-top: 150px;
+    /* margin-bottom: 20px; */
+    margin: 11px 12px 6px 9px;
+}
+
+.footer-end-left {
+    width: 194px;
+    height: 38px;
+    margin-bottom: 20px;
+}
+
+.footer-hr {
+    width: 1200px;
+    height: 3px;
+    margin: 18px 0 12px;
+    background-color: #133C82;
+    margin-top: 16px;
+    border: 0;
+}
+
+.footer-end-left h5,
+p {
+    width: 365px;
+    /* height: 121px; */
+    font-family: 'Rubik-Madium';
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.fooner-end {
+    display: inline-flex;
+    gap: 125px;
+}
+
+.footer-end-right {
+    display: inline-flex;
+    gap: 125px;
+}
+
+.footer-end-left {
+    width: 365px;
+}
+
+.footer-end-right ul {
+    list-style: none;
+}
+
+.footer-end-right li {
+    font-family: 'Rubik-Madium';
+    font-size: 14px;
+    line-height: 27px;
+}
